@@ -1,7 +1,6 @@
 /* color palette from <https://github.com/vuejs/theme> */
 
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Patrick+Hand&family=Permanent+Marker&family=Playwrite+BE+WAL:wght@100..400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Gochi+Hand&family=Patrick+Hand&family=Permanent+Marker&display=swap');
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
@@ -90,6 +89,6 @@ body {
 
 p
 {
-  font-family: 'Gochi Hand';
-  font-size: 25px;
+  font-family: 'Comic Neue';
+  font-size: 15px;
 }

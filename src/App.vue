@@ -1,10 +1,10 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import LogoView from './views/LogoView.vue'
+import Logo from './components/Logo.vue'
 </script>
 
 <template>
-  <LogoView />
+  <Logo />
   
   <div class="nav-wrapper">
     <nav>
