@@ -1,4 +1,5 @@
 <script setup>
+import '../assets/explainer.css'
 </script>
 
 <template>
@@ -14,35 +15,4 @@
 </template>
 
 <style scoped>
-.main
-{
-  margin-top: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.game-logo
-{
-  margin-top: -125px;
-  margin-bottom: -10px;
-  background-image: url("/public/Images/BackyardBeatupLogo.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 350px;
-  height: 200px;
-}
-
-.description
-{
-  width: 300px;
-  text-align: left;
-}
-
-h2
-{
-  font-family: 'Permanent Marker';
-}
-
 </style>
