@@ -1,27 +1,34 @@
 .main
 {
+  position: relative;
+  z-index: 5;
   margin-top: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: var(--vt-c-black);
+  border-radius: 8px;
 }
 
 .game-logo
 {
-  margin-top: -125px;
+  margin-top: -15px;
   margin-bottom: -10px;
   background-image: url("/Images/BackyardBeatupLogo.png");
+  background-color: var(--vt-c-black);
   background-size: cover;
   background-repeat: no-repeat;
   width: 350px;
-  height: 200px;
+  height: 110px;
+  z-index: 3;
 }
 
 .description
 {
   width: 300px;
   text-align: left;
+  background-color: var(--vt-c-black);
 }
 
 h2

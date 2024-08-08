@@ -14,6 +14,7 @@
 
 .logo-wrapper-wrapper
 {
+  z-index: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,6 +26,7 @@
 
 .logo-wrapper
 {
+  z-index: 1;
   display: flex;
   flex-direction: row;
   top: 0;
@@ -34,6 +36,7 @@
 
 .logo 
 {
+  z-index: 1;
   top: 0;
   left: 0;
   background-image: url('../Images/Berta_Boy_Games_Logo_Transparent.png');
@@ -46,11 +49,13 @@
 
 .title-wrapper
 {
+  z-index: 1;
   margin-top: 35px;
 }
 
 .title
 {
+  z-index: 1;
   font-size: 50px;
   font-family: 'Permanent Marker';
   margin-bottom: -45px;
